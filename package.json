@@ -2,7 +2,7 @@
   "name": "structuralcode",
   "main": "index.js",
   "scripts": {
-    "copy": "cpx -C src/**/*.{svg,png,jpg} src/.vuepress\\public",
+    "copy": "cpx -C ./src/**/*.{svg,png,jpg} ./src/.vuepress/public",
     "src:dev": "vuepress dev src",
     "src:build": "vuepress build src"
   },
