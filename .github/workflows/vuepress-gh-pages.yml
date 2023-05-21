@@ -38,7 +38,7 @@ jobs:
       - name: copy image file
         run: npm run copy
 
-      # docs フォルダを作ってやらないとエラーが出る
+      # docs public
       - name: Create docs folder
         run: mkdir -p ./docs
         run: mkdir -p ./src/.vuepress/public
