@@ -1,9 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-var dirpath = "./docs"
+var dirpath = "./src"
 var dirs = fs.readdirSync(dirpath).filter((f) => {
-  return fs.existsSync(dirpath + "/" + f) && fs.statSync(dirpath + "/" + f).isDirectory()
+  if(fs.existsSync(dirpath + "/" + f) && fs.statSync(dirpath + "/" + f).isDirectory()){
+    if(f != ".vuepress") return true
+  }
+  return false
 })
 var sidebarArray = ["/"].concat(dirs.map((dir) => {
   return {
@@ -20,9 +23,6 @@ module.exports = {
     title: '土木とプログラミング',
     lang: 'ja',
     description: '土木をプログラミングで解く.',
-    config: (md) => {
-        md.options.linkify = true
-    },
     themeConfig: {    
         nav: [
             { text: 'note', link: 'https://note.com/sasaco_corp'},
@@ -36,12 +36,5 @@ module.exports = {
         '@vuepress/plugin-medium-zoom',
     ],
     dest: 'docs/',
-    base: '/',
-    configureWebpack: {
-        resolve: {
-            alias: {
-                '@alias': 'path/to/some/dir'
-            }
-        }
-    }
+    base: '/'
 }

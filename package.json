@@ -3,7 +3,7 @@
   "main": "index.js",
   "scripts": {
     "copy": "cpx -C ./src/**/*.{svg,png,jpg} ./src/.vuepress/public",
-    "src:dev": "vuepress dev src",
+    "src:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
     "src:build": "vuepress build src"
   },
   "devDependencies": {
