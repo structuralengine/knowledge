@@ -34,13 +34,13 @@ jobs:
       - name: npm install
         run: npm install            
 
-      # run copy script
-      - name: copy image file
-        run: npm run copy
-
       # docs フォルダを作ってやらないとエラーが出る
       - name: Create docs folder
         run: mkdir -p ./docs && mkdir -p ./src/.vuepress/public
+
+      # run copy script
+      - name: copy image file
+        run: npm run copy
 
       # run build script
       - name: Build VuePress site
