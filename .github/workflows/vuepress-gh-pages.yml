@@ -38,10 +38,10 @@ jobs:
       - name: copy image file
         run: npm run copy
 
-      # error
+      # docs フォルダを作ってやらないとエラーが出る
       - name: Create docs folder
-        mkdir -p ./docs
-        mkdir -p ./src/.vuepress/public
+        run: mkdir -p ./docs
+        run: mkdir -p ./src/.vuepress/public
 
       # run build script
       - name: Build VuePress site
