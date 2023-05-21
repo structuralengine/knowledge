@@ -1,0 +1,13 @@
+{
+  "name": "structuralcode",
+  "main": "index.js",
+  "scripts": {
+    "copy": "cpx -C src/**/*.{svg,png,jpg} src/.vuepress\\public",
+    "src:dev": "npm run copy && set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
+    "src:build": "npm run copy && set NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "vuepress": "^1.9.9"
+  }
+}

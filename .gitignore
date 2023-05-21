@@ -1,4 +1,6 @@
-/*
-!.gitignore
-!docs
-!README.md
+node_modules/
+src/.vuepress/dist/
+src/.vuepress/.temp/
+src/.vuepress/.cache/
+package-lock.json
+*.canvas
