@@ -5,3 +5,6 @@ src/.vuepress/.cache/
 src/.vuepress/public/
 package-lock.json
 *.canvas
+.obsidian/
+docs/*
+!docs/.gitkeep

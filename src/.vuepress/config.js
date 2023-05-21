@@ -1,10 +1,11 @@
+/*
 const fs = require('fs');
 const path = require('path');
 
 var dirpath = "./src"
 var dirs = fs.readdirSync(dirpath).filter((f) => {
   if(fs.existsSync(dirpath + "/" + f) && fs.statSync(dirpath + "/" + f).isDirectory()){
-    if(f != ".vuepress") return true
+    if(f.charAt(0) != '.') return true
   }
   return false
 })
@@ -17,7 +18,7 @@ var sidebarArray = ["/"].concat(dirs.map((dir) => {
     })
   }
 }))
-
+*/
 
 module.exports = {
     title: '土木とプログラミング',
@@ -29,11 +30,19 @@ module.exports = {
             { text: 'twitter', link: 'https://twitter.com/sasaco_corp' },
             { text: 'YouTube', link: 'https://www.youtube.com/channel/UCHt4hzVJd95-m-f0r8YSCSA' },
         ],
-        sidebar: sidebarArray
+        sidebar: "auto",
+        sidebarDepth: 2,
+        displayAllHeaders: true,
     },
     plugins: [
-        '@vuepress/plugin-back-to-top',
-        '@vuepress/plugin-medium-zoom',
+      '@vuepress/active-header-links',
+      {
+        sidebarLinkSelector: '.sidebar-link',
+        headerAnchorSelector: '.header-anchor'
+      },
+      '@vuepress/blog',
+      '@vuepress/plugin-back-to-top',
+      '@vuepress/plugin-medium-zoom',
     ],
     dest: 'docs/',
     base: '/'
