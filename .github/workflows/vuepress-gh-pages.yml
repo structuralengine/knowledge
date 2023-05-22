@@ -54,6 +54,6 @@ jobs:
           # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # deploy the default output dir of VuePress
-          publish_branch: gh-pages s
+          publish_branch: gh-pages
           # https://tech-wafter.net/2020/deploy-custom-domain-github-pages-on-github-actions/
           cname: structuralcode.com
