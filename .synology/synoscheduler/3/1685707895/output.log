@@ -1,6 +1,0 @@
-[main c755fa3] NOW
- 3 files changed, 12 insertions(+), 1 deletion(-)
- create mode 100644 .synology/synoscheduler/3/1685707667/output.log
- create mode 100644 .synology/synoscheduler/3/1685707667/script.log
-error: src refspec master does not match any
-error: failed to push some refs to 'https://github.com/sasaco/structuralcode.git'

@@ -1,9 +1,0 @@
-/volume1/video/ブログ/structuralcode/.synology/automatic_commit: line 10: $'\r': command not found
-/volume1/video/ブログ/structuralcode/.synology/automatic_commit: line 13: $'\r': command not found
-/volume1/video/ブログ/structuralcode/.synology/automatic_commit: line 17: cd: $'\r': No such file or directory
-fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
