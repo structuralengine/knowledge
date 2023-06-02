@@ -1,0 +1,10 @@
+/volume1/video/ブログ/structuralcode/.synology/automatic_commit: line 1: ﻿#!/bin/bash: No such file or directory
+[main eda903b] NOW
+ 5 files changed, 40 insertions(+)
+ create mode 100644 .synology/automatic_commit
+ create mode 100644 .synology/synoscheduler/3/1685707363/output.log
+ create mode 100644 .synology/synoscheduler/3/1685707363/script.log
+ create mode 100644 .synology/synoscheduler/3/1685707376/output.log
+ create mode 100644 .synology/synoscheduler/3/1685707376/script.log
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/sasaco/structuralcode.git'
