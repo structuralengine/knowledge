@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"type":"group","id":"24fab1147abfa3a9","x":-200,"y":-460,"width":1480,"height":1220,"label":"パッケージ"},
+		{"type":"group","id":"9d3cfbe6a2cfe478","x":-160,"y":-390,"width":640,"height":1150,"label":"FEMPython (python)"},
+		{"type":"group","id":"4d0a66fc8cdcb2ca","x":-1120,"y":-460,"width":700,"height":820,"label":"クライアント"},
+		{"type":"text","text":"FrameWeb","id":"394490a726ee03a9","x":-720,"y":-410,"width":250,"height":60},
+		{"type":"text","text":"core (C++)","id":"6f69afd95b9ba444","x":680,"y":-335,"width":250,"height":60},
+		{"type":"file","file":"structuralcode/FEMPython/main.py.md","id":"2f67cf3889fec6cc","x":-100,"y":-335,"width":400,"height":110},
+		{"type":"file","file":"structuralcode/FEMPython/_dataManager.py.md","id":"98532f306b0c275a","x":-100,"y":-140,"width":400,"height":120},
+		{"id":"44fee7e2b814b44e","x":-880,"y":-300,"width":360,"height":258,"color":"3","type":"text","text":"現在は一旦FrameWeb でインプットデータをまとめてからFEMPythonを使っているが、\n最終的には、直接 FEMPython の データを使うことになる"}
+	],
+	"edges":[
+		{"id":"bce66d63e43298f3","fromNode":"394490a726ee03a9","fromSide":"right","toNode":"2f67cf3889fec6cc","toSide":"left"},
+		{"id":"b1c2ca8dac768914","fromNode":"98532f306b0c275a","fromSide":"top","toNode":"2f67cf3889fec6cc","toSide":"bottom"}
+	]
+}
