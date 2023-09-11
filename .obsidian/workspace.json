@@ -11,8 +11,12 @@
             "id": "6944561f6b1b6f68",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_sidebar.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_sidebar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_sidebar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/assets/AutoStockTrade.gif"
+                "file": "_sidebar.md"
               }
             }
           }
@@ -132,15 +138,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5ad2f5791390b139",
-  "lastOpenFiles": []
+  "active": "6944561f6b1b6f68",
+  "lastOpenFiles": [
+    "_footer.md",
+    "_coverpage.md",
+    "README.md",
+    "_sidebar.md"
+  ]
 }
