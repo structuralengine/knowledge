@@ -16,9 +16,9 @@
               "state": {
                 "file": "FrontISTR/BIM×構造計算×AI.canvas",
                 "viewState": {
-                  "x": 980.4992276106199,
-                  "y": -608.3106555705432,
-                  "zoom": 0.11111114501953123
+                  "x": 2072.807844446675,
+                  "y": -830.1711141202243,
+                  "zoom": -0.33333328247070315
                 }
               },
               "pinned": true
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CAD/画面に3DCADが表示できるようになりました.md",
+                "file": "FrontISTR/BIM×構造計算×AI.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CAD/画面に3DCADが表示できるようになりました.md",
+                "file": "FrontISTR/BIM×構造計算×AI.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CAD/画面に3DCADが表示できるようになりました.md"
+                "file": "FrontISTR/BIM×構造計算×AI.canvas"
               }
             }
           },
@@ -187,13 +186,16 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "5f2cd52b9850d62b",
+  "active": "58b712f2803e4006",
   "lastOpenFiles": [
+    "FrontISTR/assets/Pasted image 20231106124935.png",
+    "FrontISTR/assets/Pasted image 20231106124928.png",
+    "FrontISTR/assets/Pasted image 20231106124926.png",
+    "CAD/画面に3DCADが表示できるようになりました.md",
     "CAD/assets/Pasted image 20231106124843.png",
     "CAD/assets/Pasted image 20231106124734.png",
     "CAD/assets",
     "FrontISTR/IFC.js.md",
-    "CAD/画面に3DCADが表示できるようになりました.md",
     "FrontISTR/BIM×構造計算×AI.canvas",
     "FrontISTR/assets/Pasted image 20231101153948.png",
     "FrontISTR/assets/Pasted image 20231101143402.png",
