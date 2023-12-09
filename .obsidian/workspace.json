@@ -16,9 +16,9 @@
               "state": {
                 "file": "FrontISTR/BIM×構造計算×AI.canvas",
                 "viewState": {
-                  "x": 2072.807844446675,
-                  "y": -830.1711141202243,
-                  "zoom": -0.33333328247070315
+                  "x": 182.48761989518766,
+                  "y": 979.8183962681302,
+                  "zoom": -1.222222137451172
                 }
               },
               "pinned": true
@@ -47,8 +47,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "432ea6a91328130f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "仕事の効率化/このサイトを公開するまでの記録.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrontISTR/BIM×構造計算×AI.canvas",
+                "file": "仕事の効率化/このサイトを公開するまでの記録.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrontISTR/BIM×構造計算×AI.canvas",
+                "file": "仕事の効率化/このサイトを公開するまでの記録.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontISTR/BIM×構造計算×AI.canvas"
+                "file": "仕事の効率化/このサイトを公開するまでの記録.md"
               }
             }
           },
@@ -177,54 +190,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "58b712f2803e4006",
+  "active": "5ad2f5791390b139",
   "lastOpenFiles": [
-    "FrontISTR/assets/Pasted image 20231106124935.png",
-    "FrontISTR/assets/Pasted image 20231106124928.png",
-    "FrontISTR/assets/Pasted image 20231106124926.png",
-    "CAD/画面に3DCADが表示できるようになりました.md",
-    "CAD/assets/Pasted image 20231106124843.png",
-    "CAD/assets/Pasted image 20231106124734.png",
-    "CAD/assets",
-    "FrontISTR/IFC.js.md",
-    "FrontISTR/BIM×構造計算×AI.canvas",
-    "FrontISTR/assets/Pasted image 20231101153948.png",
-    "FrontISTR/assets/Pasted image 20231101143402.png",
-    "FrontISTR/assets/Pasted image 20231101144447.png",
-    "FrontISTR/assets/Pasted image 20231101143249.png",
-    "FrontISTR/assets",
-    "README.md",
-    "CAD",
-    "FEMPython/main.py.md",
-    "FrontISTR",
-    "仕事の効率化/Emscriptenの導入メモ(Windows).md",
-    "仕事の効率化/このサイトを公開するまでの記録.md",
-    "FEMPython/FEMPythonのしくみ.canvas",
-    "FEMPython/FrontISTRをインストールする.md",
-    "FEMPython/FrontISTR高速化.md",
     "構造設計/影響線載荷計算～面線荷重～.md",
     "構造設計/影響線載荷計算～面集中荷重～.md",
+    "構造設計/README.md",
+    "仕事の効率化/このサイトを公開するまでの記録.md",
+    "仕事の効率化/Blender コマンド.md",
+    "仕事の効率化/Emscriptenの導入メモ(Windows).md",
+    "README.md",
+    "assets/Pasted image 20230520112913.png",
+    "FrontISTR/IFC.js.md",
+    "FrontISTR/BIM×構造計算×AI.canvas",
+    "FEMPython/main.py.md",
+    "FEMPython/FrontISTR高速化.md",
+    "FEMPython/FrontISTRをインストールする.md",
+    "FEMPython/FEMPythonのしくみ.canvas",
+    "FEMPython/_dataManager.py.md",
+    "CAD/画面に3DCADが表示できるようになりました.md",
+    "assets/Pasted image 20231106124734.png",
+    "assets/Pasted image 20231101143249.png",
+    "assets",
+    "assets/Pasted image 20231106124935.png",
+    "assets/Pasted image 20231106124928.png",
+    "assets/Pasted image 20231106124926.png",
+    "assets/Pasted image 20231106124843.png",
+    "CAD/assets",
+    "assets/Pasted image 20231101153948.png",
+    "assets/Pasted image 20231101143402.png",
+    "assets/Pasted image 20231101144447.png",
+    "FrontISTR/assets",
+    "CAD",
+    "FrontISTR",
     "_sidebar.md",
     "2023-10-17.md",
     "_footer.md",
     "_coverpage.md",
-    "仕事の効率化/Blender コマンド.md",
-    "FEMPython/_dataManager.py.md",
     "blog/2023-05-21.md",
     "blog/2023-05-20.md",
     "blog/2023-09-12.md",
     "blog/2023-06-03.md",
-    "構造設計/README.md",
-    "FEMPython/assets/Pasted image 20230920215420.png",
     "FEMPython/assets"
   ]
 }

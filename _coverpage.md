@@ -4,7 +4,7 @@
 
 - 建築/土木 構造設計
 - BIM/CIM モデリング
-- Unreal Engine プログラム開発
+- 構造設計 プログラム開発
 
-[GitHub](https://github.com/sasaco/structuralcode)
-[Sasazawa](#)
+[Home](https://malme.app)
+[About us](https://www.malme.net/about_us)

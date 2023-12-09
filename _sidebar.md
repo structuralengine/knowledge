@@ -1,22 +1,21 @@
-- blog
+- CAD
 
-  - [静的Webサイト ジェネレータを試した](blog/2023-05-20.md)
-  - [わかるか！](blog/2023-05-21.md)
-  - [GitHub Actions で Git HUb Pages にデプロイした](blog/2023-05-22.md)
-  - [docsify が ビルド不要でブログできるらしい](blog/2023-06-01.md)
-  - [なんだこれかっこよすぎる](blog/2023-06-02.md)
-  - [FEMPython の開発が遅れてしまっている](blog/2023-06-03.md)
+  - [画面に3DCADが表示できるようになりました](CAD/画面に3DCADが表示できるようになりました.md)
 
 - FEMPython
 
+  - [FrontISTRをインストールする](FEMPython/FrontISTRをインストールする.md)
+  - [python で他のアプリを実行する方法](FEMPython/FrontISTR高速化.md)
   - [FEMPython クラス](FEMPython/main.py.md)
   - [_dataManager クラス](FEMPython/_dataManager.py.md)
+
+- FrontISTR
+
+  - [IFC.js](FrontISTR/IFC.js.md)
 
 - 仕事の効率化
 
   - [Blender コマンド](仕事の効率化/Blender%20コマンド.md)
-  - [Blender コマンド](仕事の効率化/Blender%20コマンド.md)
-  - [Emscriptenの導入メモ(Windows)](仕事の効率化/Emscriptenの導入メモ(Windows).md)
   - [土木設計屋がドキュメントサイトを公開する](仕事の効率化/このサイトを公開するまでの記録.md)
 
 - 構造設計
